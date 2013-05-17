@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularProgressBar">
+        <attr name="hasShadow" format="boolean"/>
+        <attr name="progressColor" format="string"/>
+        <attr name="backgroundColor" format="string"/>
+        <attr name="title" format="string"/>
+        <attr name="titleColor" format="string"/>
+        <attr name="subtitle" format="string"/>
+        <attr name="subtitleColor" format="string"/>
+        <attr name="strokeWidth" format="integer"/>
+    </declare-styleable>
+</resources>
