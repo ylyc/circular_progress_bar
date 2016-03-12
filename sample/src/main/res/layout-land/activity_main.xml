@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circular="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3d3d3d"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:paddingLeft="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.lylc.widget.circularprogressbar.CircularProgressBar
+            android:id="@+id/circularprogressbar1"
+            style="@style/Widget.ProgressBar.Holo.CircularProgressBar"
+            android:layout_width="240dip"
+            android:layout_height="240dip"
+            android:layout_marginTop="20dip"
+            circular:cpb_subtitle="subtitle"
+            circular:cpb_title="Title"
+            android:layout_marginRight="64dp"/>
+
+        <com.lylc.widget.circularprogressbar.CircularProgressBar
+            android:id="@+id/circularprogressbar2"
+            style="@style/Widget.ProgressBar.Holo.CircularProgressBar"
+            android:layout_width="210dip"
+            android:layout_height="210dip"
+            android:layout_marginTop="20dip"
+            circular:cpb_subtitle="subtitle"
+            circular:cpb_title="Title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.lylc.widget.circularprogressbar.CircularProgressBar
+            android:id="@+id/circularprogressbar3"
+            style="@style/Widget.ProgressBar.CircularProgressBar"
+            android:layout_width="150dip"
+            android:layout_height="150dip"
+            android:layout_marginTop="20dip"
+            circular:cpb_subtitle="subtitle"
+            circular:cpb_title="Title"
+            android:layout_marginRight="64dp"/>
+
+        <com.lylc.widget.circularprogressbar.CircularProgressBar
+            android:id="@+id/circularprogressbar4"
+            style="@style/Widget.ProgressBar.CircularProgressBar"
+            android:layout_width="180dip"
+            android:layout_height="180dip"
+            android:layout_marginTop="20dip"
+            circular:cpb_subtitle="subtitle"
+            circular:cpb_title="Title" />
+    </LinearLayout>
+
+</LinearLayout>
