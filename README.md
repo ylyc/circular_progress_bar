@@ -12,7 +12,7 @@ Make sure you have attrs.xml, colors.xml, styles.xml
 
 Include the xml in the layout.  
 
-	<com.lylc.widget.circularprogressbar.example.CircularProgressBar
+	<com.lylc.widget.circularprogressbar.CircularProgressBar
         android:id="@+id/circularprogressbar1"
     	style="@style/Widget.ProgressBar.Holo.CircularProgressBar"
      	android:layout_width="120dip"
