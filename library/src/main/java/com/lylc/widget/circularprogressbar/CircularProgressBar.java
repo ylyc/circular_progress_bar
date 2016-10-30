@@ -186,9 +186,9 @@ public class CircularProgressBar extends ProgressBar{
 		final int height = getDefaultSize(getSuggestedMinimumHeight(), heightMeasureSpec);
 		final int width = getDefaultSize(getSuggestedMinimumWidth(), widthMeasureSpec);
 		final int min = Math.min(width, height);
-		setMeasuredDimension(min+2*STROKE_WIDTH, min+2*STROKE_WIDTH);
+		setMeasuredDimension(min, min);
 
-		mCircleBounds.set(STROKE_WIDTH, STROKE_WIDTH, min+STROKE_WIDTH, min+STROKE_WIDTH);
+		mCircleBounds.set(STROKE_WIDTH, STROKE_WIDTH, min-STROKE_WIDTH, min-STROKE_WIDTH);
 	}
 
 	@Override
